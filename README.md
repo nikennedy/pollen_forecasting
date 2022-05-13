@@ -135,7 +135,7 @@ While Weekly data appears to have higher correlations and less seasonlity post-d
 ## A. Species Analysis
 An Additional goal of this report, intended primarily for further research is a comprehensive breakdown of plant (and eventually mold) species. The goal being to work with pharmacies and customers to match days of purchase and usage of allergy medications to spikes in pollen counts. This could be used a diagnostic support tool for allergy-type identification. 
 
-<img src = "images/species_2.png">
+<img src = "images/Species_2.png">
 
 Data for allergy purposes is primarily available to research institutions via an application, however random data could be generated to be distributed more frequently around days of high pollen counts. These artificial consumer purchases throughout the decade could be matched by date to species-specific pollen counts to be used as a diagnostic tool. Many people do not have easy access to allergists, often due to financial constraints or scarcity of providers. Offering an alternative that aids the public in understanding the causes of their symptoms can empower individuals to take control of and learn about their allergies. This would potentially mitigate the upswing in doctor visits that occurs in allergy season, providing relief to over-extended medical facilities during the Covid-19 era.
 
