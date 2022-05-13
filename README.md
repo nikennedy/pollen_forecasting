@@ -21,7 +21,6 @@
 
 ### 9) References
 
-### 10) Appendix
 
 
 
@@ -153,7 +152,7 @@ Pollen is only one cause of seasonal allergies. The Houston Health Department al
 ## D. Improving High Pollen Criteria and incorporating multiple classes of severity
 By refining the pollen count determination of `high` vs not high pollen days as well as modeling days of `very_high` and `super_high` pollen days would allow for better understanding of the effects and timing of allergies in the general public
 
-# 8 Conclusion
+# 8) Conclusion
 Modeling a complex natural phenomenon like airborne pollen counts depends on a number of factors outside of basic local climate data like average temperature, average wind speed, and precipitation. While it's possible that these variables do indeed influcence daily pollen counts locally, it's also more than likely that it is their own seasonal patterns that allow for accurate modeling. Divorcing these variables and pollen counts from their seasonal components may not provide much insight into allergy severity. 
 
 Due to the high levels of multicolinearity and seasonality of all of the data, Classifiers than ignore multicolinearity proved the most successful, with a K-Nearest-Neighbors model marginally outperforming the Random Forest Classifier model for best fit. 
@@ -162,7 +161,7 @@ Time Series modeling was possible for upsampled weekly data. It offered an accur
 
 Given the similarity in symptoms, bringing awareness and understanding to allergies is especially important in the post-Covid era as healthcare systems were taxed to their breaking points. Helping the public better understand the timing and causes of their sniffles and sneezes not only helps individuals, but also the medical providers that treat them.
 
-# 10) Additional References
+# 9) Additional References
 
 1) https://www.chpa.org/sites/default/files/media/docs/2020-10/Assessing-Consumer-Benefits-of-Allergy-Rx-OTC-Switches-03012017.pdf
 
