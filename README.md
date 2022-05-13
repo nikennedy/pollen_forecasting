@@ -108,7 +108,7 @@ Having tried several models, the most success for this data again came from a Ra
 
 <img src = "images/rfc_final_cm.png">
 
-It is still not proven that the improvement from the baseline is not caused by seasonality as even after decomposition the climate variables still appear to have seasonal patterns:
+It is still not proven that the improvement from the baseline is not caused by seasonality as even after decomposition the climate variables still appear to have seasonal patterns. Nevertheless this model by a slim margin is the best in terms of accuracy and precision, rounding these metrics still results in 60% and 59% respectively:
 <img src = "images/temp_daily_resids.png"
 Clearly seasonality wasn't removed from all the data so much as muffled a bit, which makes sense given that all the models with seasonality outperformed their counterparts in this section. Thus the question still remains. 
 
