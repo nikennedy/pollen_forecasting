@@ -118,7 +118,9 @@ Interestingly enough, when decomposing an upsampled weekly data, the `seasonal_d
 While Weekly data appears to have higher correlations and less seasonlity post-decomposition there are 7X fewer data points thus modeling faces a new challenge
 <img src = "images/seasonal_decomp_w.png">
                          
-# 6) There is an obvious seasonal component to the data, this is explored below with a variety of time series predicted models. The growth of pollen counts is exponential and the distribution of the data is more normal after weighted pollen counts are log-transformed. 
+# 6) Time-Series Modeling
+
+There is an obvious seasonal component to the data, this is explored below with a variety of time series predicted models. The growth of pollen counts is exponential and the distribution of the data is more normal after weighted pollen counts are log-transformed. 
   
 <img src = "images/log_reasoning.png">
  
