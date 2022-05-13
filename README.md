@@ -116,6 +116,9 @@ Interestingly enough, when decomposing an upsampled weekly data, the `seasonal_d
 # 5c) Exploring Weekly Data
 While Weekly data appears to have higher correlations and less seasonlity post-decomposition there are 7X fewer data points thus modeling faces a new challenge
 <img src = "images/seasonal_decomp_w.png">
+Modeling on this data proved to be less effective than daily data, perhaps due to how the target was created. Rounding the weekly target means that weeks with 4 or more days of `high` weighted pollen counts are considered `high` pollen weeks. At 48% It was even less accurate than a most-frequent type dummy baseline would be due to the class breakdown of 52% high pollen weeks. 
+
+Classification of this data was also performed, <a href="https://github.com/nikennedy/pollen_forecasting/blob/main/Auxilliary%20Notebooks/Modeling%20with%20seasonality.ipynb"> here in a separate notebook </a> without the seasonal component removed via differencing or seasonal decomposition in order to observe the influence of seasonality in classification in the climate variables and make comparisons. Unsurprisingly, these models were more accurate, implying that to at least some extent, seasonal correlations were successfully removed above. 
                          
 # 6) Time-Series Modeling
 
