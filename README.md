@@ -129,7 +129,7 @@ There is an obvious seasonal component to the data, this is explored below with 
  The best fitting model in terms of Root-Mean-Squared-Error (RMSE) turned out to just be the prior year's pollen counts. 
  <img src = "images/year_shifted_log.png">
  And re-exponentiated as follows:
-  <img src = "images/year_shifted_log_re_exp.png">
+  <img src = "images/year_shifted_re_exp.png">
   This model has a RMSE of ~425, meaning on average, the predictions from last year's counts are off by 425 particles per cubic meter
   
   Using S/Arima we were able to produce a model that performed ok on Test data, with an RMSE of 591. Using Sarima, log-transformed weighted pollen counts proved more effective for training the model than raw pollen counts. 
